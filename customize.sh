@@ -13,5 +13,5 @@ sed -i 's/192.168.1.1/192.168.3.25/g' openwrt/package/base-files/files/bin/confi
 rm -rf package/lean/luci-theme-argon
 git clone https://github.com/kenzok8/luci-theme-ifit.git package/lean/luci-theme-ifit
 git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
-sed -i "/CYXluq4wUazHjmCDBCqXF/d" package/lean/default-settings/files/zzz-default-settings
+#sed -i "/CYXluq4wUazHjmCDBCqXF/d" package/lean/default-settings/files/zzz-default-settings
 sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' feeds/luci/themes/luci-theme-bootstrap/root/etc/uci-defaults/30_luci-theme-bootstrap
